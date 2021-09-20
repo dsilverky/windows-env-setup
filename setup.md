@@ -33,8 +33,6 @@
     - Install Ubuntu
 ## Install Windows Terminal (optional)
 [https://docs.microsoft.com/en-us/windows/terminal/get-started](https://docs.microsoft.com/en-us/windows/terminal/get-started)
-## Install Visual Studio Code
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
 ## Config WSL
 1. Install SDKMAN [https://sdkman.io/install](https://sdkman.io/install)
     - `sudo apt-get install unzip`
@@ -42,17 +40,20 @@
     - `curl -s "https://get.sdkman.io" | bash`
     - `source "$HOME/.sdkman/bin/sdkman-init.sh"`
     - `sdk version`
-2. Install java
+2. Install Java
     - `sdk ls java`
     - `sdk install java 8.0.302-open`
-3. Install node
+3. Install Node
     - Install Node Version Manager [here](https://github.com/nvm-sh/nvm)
         - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
         - `source ~/.bashrc`
         - `command -v nvm`
-        - `nvm install node`
+    - Install Node: `nvm install node`
 4. Install Maven
     - Download binary: [Maven](https://maven.apache.org/download.cgi)
     - Upzip: `unzip apache-maven-3.8.2-bin.zip`
     - Open .bashrc: `nano ~/.bashrc`
     - Add this: `export PATH=/home/dungbv/Downloads/apache-maven-3.8.2/bin:$PATH`
+
+## Install Visual Studio Code
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
