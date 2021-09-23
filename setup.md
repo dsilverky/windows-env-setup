@@ -33,6 +33,7 @@
     - Install Ubuntu
 ## Install Windows Terminal (optional)
 [https://docs.microsoft.com/en-us/windows/terminal/get-started](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+- Starting directory: "//wsl$/Ubuntu-20.04/home/<user_name>"
 ## Config WSL
 1. Install SDKMAN [https://sdkman.io/install](https://sdkman.io/install)
     - `sudo apt-get install unzip`
@@ -55,5 +56,10 @@
     - Open .bashrc: `nano ~/.bashrc`
     - Add this: `export PATH=/home/dungbv/Downloads/apache-maven-3.8.2/bin:$PATH`
 
+## Package Manager
+1. [Windows Package Manager](https://github.com/microsoft/winget-cli/releases)
+2. [Scoop](https://scoop.sh/)
 ## Install Visual Studio Code
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+1. [Java in Visual Studio Code](https://code.visualstudio.com/docs/languages/java)
+2. [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
