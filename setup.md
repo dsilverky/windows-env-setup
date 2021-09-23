@@ -63,3 +63,8 @@
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 1. [Java in Visual Studio Code](https://code.visualstudio.com/docs/languages/java)
 2. [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
+## Docker
+1. Install: https://docs.docker.com/desktop/windows/wsl/
+2. Fix error **docker engine stopped**
+    - `cd "C:\Program Files\Docker\Docker"`
+    - `./DockerCli.exe -SwitchDaemon`
