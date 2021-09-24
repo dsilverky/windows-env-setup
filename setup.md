@@ -56,6 +56,10 @@
     - Open .bashrc: `nano ~/.bashrc`
     - Add this: `export PATH=/home/dungbv/Downloads/apache-maven-3.8.2/bin:$PATH`
 
+5. WSL ip
+    - `wsl hostname -I`
+    - `ip addr`
+
 ## Package Manager
 1. [Windows Package Manager](https://github.com/microsoft/winget-cli/releases)
 2. [Scoop](https://scoop.sh/)
