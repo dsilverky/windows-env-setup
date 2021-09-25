@@ -2,6 +2,8 @@
 [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 ## Install Git
 [https://git-scm.com/download/win](https://git-scm.com/download/win) 
+## Install Melde
+[https://meldmerge.org/](https://meldmerge.org/)
 ## Config Github SSH
 [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 1. Open Git Bash
@@ -59,6 +61,11 @@
 5. WSL ip
     - `wsl hostname -I`
     - `ip addr`
+
+6. Git config Merge
+    - `git config --global mergetool.keepBackup false`
+    - `sudo ln -s /mnt/c/Program\ Files\ \(x86\)/Meld/Meld.exe /usr/local/bin/meld`
+    -  Edit ~/.gitconfig: file **gitconfig.sample** in this folder
 
 ## Package Manager
 1. [Windows Package Manager](https://github.com/microsoft/winget-cli/releases)
